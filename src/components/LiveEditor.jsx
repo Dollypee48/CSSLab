@@ -13,7 +13,7 @@ export default function LiveEditor() {
 
   return (
     <div className="bg-white rounded-xl p-4 shadow-md mt-6">
-      <h2 className="text-lg font-bold mb-2 text-gray-800">Live CSS Editor</h2>
+      <h2 className="text-lg font-bold mb-2 text-gray-800">Live CSSLab Editor</h2>
       <textarea
         value={code}
         onChange={(e) => setCode(e.target.value)}

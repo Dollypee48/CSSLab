@@ -26,7 +26,7 @@ export default function ResponsiveToggle() {
       </div>
       <div className={`mx-auto border bg-white p-4 ${getWidth()} transition-all duration-300 rounded shadow`}> 
         {/* Rendered playground components go here */}
-        <p className="text-center text-gray-500">Preview Area</p>
+        <p className="text-center text-blue-500">Preview Area</p>
       </div>
     </div>
   );
